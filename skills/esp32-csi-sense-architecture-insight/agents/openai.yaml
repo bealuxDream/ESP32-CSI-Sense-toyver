@@ -1,0 +1,4 @@
+interface:
+  display_name: "ESP32 CSI Sense architecture"
+  short_description: "Find firmware, viewer, WLAN monitoring and publication files."
+  default_prompt: "Use this project's architecture guide to locate the minimal files and run the relevant checks."

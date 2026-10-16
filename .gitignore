@@ -1,0 +1,17 @@
+*.local.json
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/sdkconfig.wifi.local
+*.log
+__pycache__/
+artifacts/
+# Local credentials, backups, recordings and machine-specific notes.
+LOCAL_SETUP.md
+LOCAL_VALIDATION.md
+*.bin
+*.elf
+*.partial
+.env
+.env.*
+CSI-hardware-*.json

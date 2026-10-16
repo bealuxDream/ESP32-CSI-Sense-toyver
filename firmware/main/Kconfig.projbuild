@@ -1,0 +1,18 @@
+menu "CSI Classroom Demo"
+    config DEMO_WIFI_SSID
+        string "2.4 GHz Wi-Fi SSID"
+        default "YOUR_2G_WIFI"
+        help
+            Use a normal 2.4 GHz router with DHCP and ICMP ping replies.
+    config DEMO_WIFI_PASSWORD
+        string "Wi-Fi password (empty for an open network)"
+        default ""
+    config DEMO_PING_INTERVAL_MS
+        int "Router ping interval (ms)"
+        range 20 1000
+        default 50
+    config DEMO_OUTPUT_INTERVAL_MS
+        int "Serial output interval (ms)"
+        range 100 1000
+        default 100
+endmenu
